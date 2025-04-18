@@ -10,7 +10,8 @@ namespace LINQ_PART1
 
         static void Main(string[] args)
         {
-            /*
+            /* 1/6   Введение
+            
             Введение - удобный инструмент — LINQ, или Language Integrated Query
             
             Запросы LINQ 
