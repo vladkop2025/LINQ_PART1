@@ -29,6 +29,16 @@ namespace LINQ_PART1
              .ThenBy(contact => contact.LastName)
              .ToList();
 
+            foreach (var PhoneBook in sortedPhoneBook)
+                Console.WriteLine(PhoneBook.Name + ", " + PhoneBook.LastName);
+
+            //Анатолий, Карпов
+            //Валерий, Леонтьев
+            //Игорь, Николаев
+            //Иннокентий, Смоктуновский
+            //Сергей, Брин
+            //Сергей, Довлатов
+
             while (true)
             {
                 // Читаем введенный с консоли символ
